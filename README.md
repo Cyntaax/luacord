@@ -10,7 +10,7 @@
 <br />
 <p align="center">
 
-<h3 align="center">FiveM Fishing</h3>
+<h3 align="center">Luacord</h3>
 
   <p align="center">
     <br />
