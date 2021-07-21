@@ -14,6 +14,19 @@ GuildChannelData = {
 }
 
 ---@class GuildChannel
+---@field Client RestClient
+---@field Guild Guild
+---@field ID string
+---@field Name string
+---@field Type string
+---@field Topic string
+---@field Bitrate number
+---@field UserLimit number
+---@field RateLimitPerUser number
+---@field Position number
+---@field PermissionOverwrites number
+---@field ParentID string
+---@field NSFW boolean
 GuildChannel = setmetatable({}, GuildChannel)
 
 GuildChannel.__call = function()

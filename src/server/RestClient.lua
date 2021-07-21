@@ -1,3 +1,4 @@
+---@class RestClient
 RestClient = {}
 
 ---@class RestClientOptions

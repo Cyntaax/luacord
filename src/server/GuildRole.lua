@@ -12,6 +12,16 @@ GuildRoleData = {
 }
 
 ---@class GuildRole
+---@field Client RestClient
+---@field ID string
+---@field Name string
+---@field Color number
+---@field Hoist boolean
+---@field Position number
+---@field Permissions number
+---@field Managed boolean
+---@field Mentionable boolean
+---@field Tags string[]
 GuildRole = setmetatable({}, GuildRole)
 
 GuildRole.__call = function()

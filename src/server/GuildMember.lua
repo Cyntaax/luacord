@@ -12,6 +12,17 @@ GuildMemberData = {
 }
 
 ---@class GuildMember
+---@field Client RestClient
+---@field Guild Guild
+---@field User GuildMemberData
+---@field Nick string
+---@field Roles string[]
+---@field JoinedAt string
+---@field PremiumSince string
+---@field Deaf boolean
+---@field Mute boolean
+---@field Pending boolean
+---@field Permissions number
 GuildMember = setmetatable({}, GuildMember)
 
 GuildMember.__call = function()

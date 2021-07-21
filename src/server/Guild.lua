@@ -1,4 +1,6 @@
 ---@class Guild
+---@field Client RestClient
+---@field ID string
 Guild = setmetatable({}, Guild)
 
 Guild.__call = function()
