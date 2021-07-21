@@ -37,7 +37,7 @@ will change.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Simply download the [Latest Release](), place into your resources directory and start!
+Simply download the [Latest Release](https://github.com/Cyntaax/luacord/releases/latest), place into your resources directory and start!
 
 ### Prerequisites
 
